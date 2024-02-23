@@ -2,8 +2,6 @@
 # coding: utf-8
 
 
-get_ipython().run_line_magic('store', 'styles')
-
 styles = """<style>
 .hover-effect-container {
     position: relative;
@@ -157,7 +155,6 @@ styles = """<style>
     font-family:calibri;
   }
 
-  <style>
   .hover-steps {
     margin: 20px;
     position: relative;
@@ -368,7 +365,5 @@ styles = """<style>
   }
 </style>
 """
-
-
 
 get_ipython().run_line_magic('store', 'styles')
