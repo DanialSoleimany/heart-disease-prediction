@@ -1,12 +1,7 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# ### Table of Contents Style
-
-# In[5]:
-
-
-table_contents = """<style>
+styles = """<style>
 .hover-effect-container {
     position: relative;
     display: inline-block;
@@ -41,19 +36,7 @@ table_contents = """<style>
   .hover-effect-container:hover .hover-effect-text {
     color: rgb(255, 198, 196);
   }
-</style>"""
-
-get_ipython().run_line_magic('store', 'table_contents')
-
-
-# ### Cards Style
-
-# In[1]:
-
-
-cards = """
-<style>
-.card-container {
+  .card-container {
     display: flex;
     justify-content: space-between;
     margin: 0px 0;
@@ -82,20 +65,7 @@ cards = """
 .title {
     color: rgb(227, 129, 145);
 }
-</style>
 
-"""
-
-get_ipython().run_line_magic('store', 'cards')
-
-
-# ### Titles Style
-
-# In[7]:
-
-
-titles = """
-<style>
 .text-gradient-hover {
     font-size: 18px;
     padding: 0px;  
@@ -118,20 +88,8 @@ titles = """
     padding: 0px;  /* Adjust the outer padding as needed */
     margin: 10;  /* Remove default margin to ensure the padding is consistent */
 }
-</style>
-"""
 
-# %store titles
-
-
-# ### Question Style
-
-# In[4]:
-
-
-question = """
-<style>
-  .hover-effect {
+.hover-effect {
     background-color: rgb(255, 220, 196);
     padding: 15px;
     border-radius: 10px;
@@ -152,17 +110,7 @@ question = """
     color: #333;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
   }
-</style>
-"""
 
-# %store question
-
-
-# In[2]:
-
-
-title_steps = """
-<style>
   .hover-effect {
     padding: 15px;
     background-color: #45b1e8;
@@ -205,23 +153,8 @@ title_steps = """
     font-size: 28px;
     font-family:calibri;
   }
-</style>
-"""
 
-get_ipython().run_line_magic('store', 'title_steps')
-
-
-# In[ ]:
-
-
-#4169e1
-
-
-# In[37]:
-
-
-steps = """
-<style>
+  <style>
   .hover-steps {
     margin: 20px;
     position: relative;
@@ -263,18 +196,8 @@ steps = """
     text-align: center;
     
   }
-</style>
-"""
 
-get_ipython().run_line_magic('store', 'steps')
-
-
-# In[10]:
-
-
-move_table = """
-<style>
-    .three-d-shape {
+  .three-d-shape {
         position: relative;
         width: 250px;
         height: 30px;
@@ -298,17 +221,8 @@ move_table = """
         transform: translate(5px, 5px);
         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     }
-</style>
-"""
 
-# %store move_table
-
-
-# In[36]:
-
-
-visual_steps = """
-<style>
+    <style>
   .visual-steps {
     position: relative;
     overflow: hidden;
@@ -354,18 +268,8 @@ visual_steps = """
     color: rgb(139, 48, 88);
     text-align: center;
   }
-</style>
 
-"""
-
-get_ipython().run_line_magic('store', 'visual_steps')
-
-
-# In[39]:
-
-
-btn_3d = """<style>
-.button3d {
+  .button3d {
     display: inline-block;
     padding: 10px 20px;
     font-size: 16px;
@@ -472,12 +376,3 @@ visual = """<style>
     outline: none;
   }
 </style>"""
-
-get_ipython().run_line_magic('store', 'visual')
-
-
-# In[ ]:
-
-
-
-
