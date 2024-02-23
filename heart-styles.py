@@ -296,17 +296,6 @@ styles = """<style>
     color: #45b1e8;  /* Text color changes to #45b1e8 on hover */
     box-shadow: 0 5px #45b1e8;  /* Change the box shadow on hover */
 }
-
-</style>
-"""
-
-get_ipython().run_line_magic('store', 'btn_3d')
-
-
-# In[40]:
-
-
-visual = """<style>
   .box-row {
     display: flex;
     justify-content: space-around;
@@ -375,4 +364,9 @@ visual = """<style>
   .box-row :focus {
     outline: none;
   }
-</style>"""
+</style>
+"""
+
+
+
+get_ipython().run_line_magic('store', 'styles')
