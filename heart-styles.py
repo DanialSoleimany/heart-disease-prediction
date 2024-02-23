@@ -1,6 +1,9 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+
+get_ipython().run_line_magic('store', 'styles')
+
 styles = """<style>
 .hover-effect-container {
     position: relative;
@@ -222,7 +225,6 @@ styles = """<style>
         box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.3);
     }
 
-    <style>
   .visual-steps {
     position: relative;
     overflow: hidden;
